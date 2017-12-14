@@ -3,7 +3,7 @@ MACRO 36 "Charge" Ability_Warrior_Charge
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 37 "Cleave" Ability_Warrior_Cleave
-/cast Cleave(Rank 1)
+/cast Cleave(Rank 5)
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 41 "Execute" Ability_DualWield
@@ -15,7 +15,7 @@ MACRO 35 "Hamstring" Ability_ShockWave
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 39 "HS" Ability_Rogue_Ambush
-/cast Heroic Strike(Rank 4)
+/cast Heroic Strike(Rank 9)
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 38 "MS" Ability_Warrior_SavageBlow
@@ -27,15 +27,15 @@ MACRO 40 "OP" Ability_SteelMelee
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 24 "Revenge" Ability_Warrior_Revenge
-/cast Revenge(Rank 2)
+/cast Revenge(Rank 6)
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 23 "Slam" Ability_Warrior_ShieldBash
-/cast Shield Slam(Rank 1)
+/cast Shield Slam(Rank 4)
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 22 "Sunder" Ability_Warrior_Sunder
-/cast Sunder Armor(Rank 2)
+/cast Sunder Armor(Rank 5)
 /script if (not PlayerFrame.inCombat) then AttackTarget() end
 END
 MACRO 11 "Taunt" Ability_Physical_Taunt
