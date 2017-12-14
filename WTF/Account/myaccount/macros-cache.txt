@@ -1,42 +1,42 @@
 MACRO 36 "Charge" Ability_Warrior_Charge
 /cast Charge(Rank 2)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 37 "Cleave" Ability_Warrior_Cleave
 /cast Cleave(Rank 1)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 41 "Execute" Ability_DualWield
 /cast Execute(Rank 1)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 35 "Hamstring" Ability_ShockWave
 /cast Hamstring(Rank 1)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 39 "HS" Ability_Rogue_Ambush
 /cast Heroic Strike(Rank 4)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 38 "MS" Ability_Warrior_SavageBlow
 /cast Mortal Strike(Rank 1)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 40 "OP" Ability_SteelMelee
 /cast Overpower(Rank 2)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 24 "Revenge" Ability_Warrior_Revenge
 /cast Revenge(Rank 2)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 23 "Slam" Ability_Warrior_ShieldBash
 /cast Shield Slam(Rank 1)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 22 "Sunder" Ability_Warrior_Sunder
 /cast Sunder Armor(Rank 2)
-/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/script if not IsCurrentAction(61) then UseAction(61) end;
 END
 MACRO 11 "Taunt" Ability_Physical_Taunt
 /script if ( not UnitIsUnit("targettarget", "player") ) then CastSpellByName( "Taunt" ) end
