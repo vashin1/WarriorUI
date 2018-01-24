@@ -1192,11 +1192,6 @@ pfUI_profiles = {
 }
 pfUI_gold = {
 	["Kronos"] = {
-		["Marelle"] = 51343959,
-		["Merylbank"] = 17505,
-		["Marelemule"] = 14800,
-		["Mareleherbs"] = 78230,
 		["Proome"] = 539123,
-		["Marele"] = 57266,
 	},
 }

@@ -1010,28 +1010,8 @@ pfUI_init = {
 	["welcome"] = true,
 }
 pfUI_playerDB = {
-	["Tranqgrill"] = {
-		["class"] = "HUNTER",
-		["level"] = 60,
-	},
 	["Marelle"] = {
 		["class"] = "MAGE",
-		["level"] = 60,
-	},
-	["Mcg"] = {
-		["class"] = "ROGUE",
-		["level"] = 60,
-	},
-	["Mco"] = {
-		["class"] = "WARLOCK",
-		["level"] = 60,
-	},
-	["Proome"] = {
-		["class"] = "WARRIOR",
-		["level"] = 60,
-	},
-	["Soar"] = {
-		["class"] = "ROGUE",
 		["level"] = 60,
 	},
 }
