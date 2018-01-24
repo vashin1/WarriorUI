@@ -1,6 +1,6 @@
 
 DebuffFilter_Config = {
-	["Kacie - Kronos"] = {
+	["Proome - Kronos"] = {
 		["debuffs"] = "yes",
 		["all_fbuffs"] = "no",
 		["scale"] = 2,
